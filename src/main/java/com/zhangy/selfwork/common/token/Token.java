@@ -1,4 +1,4 @@
-package com.zhangy.common.token;
+package com.zhangy.selfwork.common.token;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

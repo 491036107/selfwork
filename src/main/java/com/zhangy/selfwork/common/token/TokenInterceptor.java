@@ -1,4 +1,4 @@
-package com.zhangy.common.token;
+package com.zhangy.selfwork.common.token;
 
 import java.lang.reflect.Method;
 import java.util.UUID;
