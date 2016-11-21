@@ -1,0 +1,30 @@
+2016-11-10 16:26:40.751 DEBUG [main] org.springframework.core.env.StandardEnvironment.<init>():112 -Initializing new StandardEnvironment
+2016-11-10 16:26:40.760 DEBUG [main] org.springframework.core.env.StandardEnvironment.addLast():110 -Adding [systemProperties] PropertySource with lowest search precedence
+2016-11-10 16:26:40.763 DEBUG [main] org.springframework.core.env.StandardEnvironment.addLast():110 -Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-11-10 16:26:40.764 DEBUG [main] org.springframework.core.env.StandardEnvironment.<init>():116 -Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-11-10 16:26:40.765 INFO  [main] o.s.context.support.ClassPathXmlApplicationContext.prepareRefresh():513 -Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59e1f537: startup date [Thu Nov 10 16:26:40 CST 2016]; root of context hierarchy
+2016-11-10 16:26:40.852 DEBUG [main] org.springframework.core.env.StandardEnvironment.<init>():112 -Initializing new StandardEnvironment
+2016-11-10 16:26:40.853 DEBUG [main] org.springframework.core.env.StandardEnvironment.addLast():110 -Adding [systemProperties] PropertySource with lowest search precedence
+2016-11-10 16:26:40.854 DEBUG [main] org.springframework.core.env.StandardEnvironment.addLast():110 -Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-11-10 16:26:40.855 DEBUG [main] org.springframework.core.env.StandardEnvironment.<init>():116 -Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-11-10 16:26:40.875 INFO  [main] o.s.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions():316 -Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-10 16:26:49.460 DEBUG [main] org.springframework.core.env.StandardEnvironment.<init>():112 -Initializing new StandardEnvironment
+2016-11-10 16:26:49.472 DEBUG [main] org.springframework.core.env.StandardEnvironment.addLast():110 -Adding [systemProperties] PropertySource with lowest search precedence
+2016-11-10 16:26:49.476 DEBUG [main] org.springframework.core.env.StandardEnvironment.addLast():110 -Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-11-10 16:26:49.477 DEBUG [main] org.springframework.core.env.StandardEnvironment.<init>():116 -Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-11-10 16:26:49.479 INFO  [main] o.s.context.support.ClassPathXmlApplicationContext.prepareRefresh():513 -Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4712fc97: startup date [Thu Nov 10 16:26:49 CST 2016]; root of context hierarchy
+2016-11-10 16:26:49.551 DEBUG [main] org.springframework.core.env.StandardEnvironment.<init>():112 -Initializing new StandardEnvironment
+2016-11-10 16:26:49.552 DEBUG [main] org.springframework.core.env.StandardEnvironment.addLast():110 -Adding [systemProperties] PropertySource with lowest search precedence
+2016-11-10 16:26:49.553 DEBUG [main] org.springframework.core.env.StandardEnvironment.addLast():110 -Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-11-10 16:26:49.556 DEBUG [main] org.springframework.core.env.StandardEnvironment.<init>():116 -Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-11-10 16:26:49.576 INFO  [main] o.s.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions():316 -Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-10 16:27:19.787 DEBUG [main] org.springframework.core.env.StandardEnvironment.<init>():112 -Initializing new StandardEnvironment
+2016-11-10 16:27:19.797 DEBUG [main] org.springframework.core.env.StandardEnvironment.addLast():110 -Adding [systemProperties] PropertySource with lowest search precedence
+2016-11-10 16:27:19.799 DEBUG [main] org.springframework.core.env.StandardEnvironment.addLast():110 -Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-11-10 16:27:19.800 DEBUG [main] org.springframework.core.env.StandardEnvironment.<init>():116 -Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-11-10 16:27:19.802 INFO  [main] o.s.context.support.ClassPathXmlApplicationContext.prepareRefresh():513 -Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59e1f537: startup date [Thu Nov 10 16:27:19 CST 2016]; root of context hierarchy
+2016-11-10 16:27:19.870 DEBUG [main] org.springframework.core.env.StandardEnvironment.<init>():112 -Initializing new StandardEnvironment
+2016-11-10 16:27:19.871 DEBUG [main] org.springframework.core.env.StandardEnvironment.addLast():110 -Adding [systemProperties] PropertySource with lowest search precedence
+2016-11-10 16:27:19.872 DEBUG [main] org.springframework.core.env.StandardEnvironment.addLast():110 -Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-11-10 16:27:19.872 DEBUG [main] org.springframework.core.env.StandardEnvironment.<init>():116 -Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-11-10 16:27:19.894 INFO  [main] o.s.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions():316 -Loading XML bean definitions from class path resource [applicationContext.xml]

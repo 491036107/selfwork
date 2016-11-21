@@ -1,0 +1,2 @@
+2016-11-14 16:47:24.922 INFO [main]com.zhangy.selfwork.handler.BaseHandler.responseFail():116 -输出结果：{"isError":true,"errorMsg":"zhangy"}
+2016-11-14 16:48:22.043 INFO [main]com.zhangy.selfwork.handler.BaseHandler.responseSuccess():95 -后端返回对象：zhangy
