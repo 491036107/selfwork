@@ -35,7 +35,7 @@ public class UploaderHandler {
 					if("describe".equals(fieldName)){
 						//获取信息
 						String describe=item.getString("utf-8");
-						System.out.println("des"+describe);
+						System.out.println("des："+describe);
 					}
 				}else{
 					//文件
