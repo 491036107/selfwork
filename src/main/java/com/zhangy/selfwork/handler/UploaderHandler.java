@@ -14,10 +14,21 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.io.FileUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
+import org.springframework.web.bind.annotation.RequestMethod;
+/**
+ * 
+ * Description:没啥卵用，测试webuploader使用
+ * @author zhangyu
+ * @date 2016年11月21日
+ */
 @Controller
+@RequestMapping("/upload")
 public class UploaderHandler {
-	@RequestMapping(value="uploadOne")
+	@RequestMapping(value="index")
+	public String index(){
+		return "upload/uploadone";
+	}
+	@RequestMapping(value="uploadOne",method=RequestMethod.POST)
 	public String uploadOne(HttpServletRequest request){
 		//创建DiskFileItemFactory对象，配置缓存信息
 		DiskFileItemFactory factory=new DiskFileItemFactory();
