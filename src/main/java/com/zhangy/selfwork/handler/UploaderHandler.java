@@ -35,6 +35,7 @@ public class UploaderHandler {
 		ServletFileUpload sfu=new ServletFileUpload(factory);
 		//设置文件名称编码
 		sfu.setHeaderEncoding("utf-8");
+		String fileMd5=null;
 		try {
 			//获取文件信息
 			List<FileItem> items =sfu.parseRequest(request);
@@ -48,11 +49,16 @@ public class UploaderHandler {
 						String describe=item.getString("utf-8");
 						System.out.println("des："+describe);
 					}
-				}else{
-					//文件
-					String fileName=item.getName();
+					if("fileMd5".equals(fieldName)){
+						//获取信息
+						fileMd5=item.getString("utf-8");
+						System.out.println("fileMd5："+fileMd5);
+					}
+				}else{//文件
+					/*String fileName=item.getName();
 					InputStream is=item.getInputStream();
-					FileUtils.copyInputStreamToFile(is, new File("e:/"+fileName));
+					FileUtils.copyInputStreamToFile(is, new File("e:/"+fileName));*/
+					//保存分块文件
 				}
 			}
 		} catch (FileUploadException | IOException e) {
