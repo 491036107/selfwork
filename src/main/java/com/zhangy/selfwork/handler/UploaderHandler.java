@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class UploaderHandler {
 	@RequestMapping(value="index")
 	public String index(){
-		return "upload/uploadone";
+		return "upload/uploadtwo";
 	}
 	@RequestMapping(value="uploadOne",method=RequestMethod.POST)
 	public String uploadOne(HttpServletRequest request){

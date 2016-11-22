@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title></title>
+<title>webuploader</title>
 </head>
 <body>
 	<form action="${ctx }/upload/uploadOne" method="post" enctype="multipart/form-data">

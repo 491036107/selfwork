@@ -6,23 +6,12 @@
 <artifactId>selfwork</artifactId>
 <version>0.0.1-SNAPSHOT</version>
 <packaging>war</packaging>
-<url>http://maven.apache.org</url>
+<url>http://mvnrepository.com</url>
 	<properties>  
 		<!-- spring版本号 -->  
 		<spring.version>4.0.0.RELEASE</spring.version>  
 		<hibernate.version>4.2.4.Final</hibernate.version>  
 	</properties> 
-	<!-- 设定插件仓库 -->
-	<pluginRepositories> 
-	
-		<pluginRepository>
-			<id>dd</id>
-			<name>ddd</name>
-			<url>http://mvnrepository.com/</url>
-		</pluginRepository>
-		
-	</pluginRepositories> 
-	
 	<dependencies>
 		<!--单元测试依赖 -->
 		<dependency>
